@@ -49,7 +49,7 @@ Num_good_site = 0
 Num_site = 0
 Num_transition = 0
 count_window = 0
-print("name\tSize\tTs\tTs/Tv\tS\tNum_pos\tHet")
+print("name\tPosition\tTs\tTs/Tv\tS\tNum_site\tHet")
 
 for i in range(0, len(seq1)):
 
