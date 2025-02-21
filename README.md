@@ -36,3 +36,18 @@ This include :
 ###  Usage:
 
 `cleanAlignment.py fasta_seq.fasta`
+
+--------
+## seqStats.py
+
+###  Usage:
+
+`seqStats.py fasta_seq.fasta`
+
+Read fasta sequences and return statistics.
+
+### Output
+- GC content
+- gap_data : number of '-'
+- N_sites : numder of 'N'
+- tot_missing : sum of gap_data + N_sites
